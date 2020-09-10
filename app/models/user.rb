@@ -4,5 +4,5 @@ class User < ApplicationRecord
     validates :last_name, length: { minimum: 3 }
 
     has_many :posts
-
+    has_many :comments
 end
